@@ -6,7 +6,7 @@ spring:   # 服务名称
   rabbitmq:
     host: localhost
   datasource:
-    url: jdbc:mysql://127.0.0.1:3306/springcloud?characterEncoding=UTF8&useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/myshop?characterEncoding=UTF8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
     username: root
 #    password: 123456
