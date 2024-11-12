@@ -3,6 +3,8 @@ server:
 spring:   # 服务名称
   application:
     name: user
+  rabbitmq:
+    host: localhost
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/springboot?characterEncoding=UTF8&useSSL=false
     driver-class-name: com.mysql.jdbc.Driver
